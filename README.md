@@ -11,7 +11,7 @@ for(p in pkgs){
 ```
 To execute the analysis, from the project folder you can run
 ```
-Rscript -e "rmarkdown::render('Yawei Wang_HW3.Rmd')"
+Rscript -e "rmarkdown::render('INFO 550 HW3.Rmd', output_file = 'report.html')"
 ```
 This will create a file called Report.html output in your directory that contains the results.
 
