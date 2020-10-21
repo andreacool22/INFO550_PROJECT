@@ -28,5 +28,5 @@ figs/05_make_figure_summary.png: R/05_make_figure_summary.R data/sampleA.csv dat
 
 # rule for installing packages
 .PHONY: install
-install: 00_install_packages.Rmd
-	chmod +x R/00_install_packages.Rmd && R/00_install_packages.Rmd
+install: 
+	chmod +x R/00_install_packages.R && Rscript R/00_install_packages.R
