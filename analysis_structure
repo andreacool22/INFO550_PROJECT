@@ -1,11 +1,11 @@
 analysis/
     data/
     R/
-      R/01_make_figure_sampleA.R
-      R/02_make_figure_sampleB.R
-      R/03_make_figure_sampleC.R
-      R/03_make_figure_sampleD.R
-      R/03_make_figure_summary.R
+      R/01_make_figure_sampleA.Rmd
+      R/02_make_figure_sampleB.Rmd
+      R/03_make_figure_sampleC.Rmd
+      R/03_make_figure_sampleD.Rmd
+      R/03_make_figure_summary.Rmd
       R/04_report.Rmd
     figs/
     report.html/
