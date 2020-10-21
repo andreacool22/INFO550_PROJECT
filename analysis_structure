@@ -9,5 +9,6 @@ analysis/
       R/03_make_figure_summary.R
       R/04_report.Rmd
     figs/
+    report.html/
     Makefile
     README.md
