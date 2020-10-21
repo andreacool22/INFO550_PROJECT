@@ -4,10 +4,15 @@ analysis/
       R/01_make_figure_sampleA.Rmd
       R/02_make_figure_sampleB.Rmd
       R/03_make_figure_sampleC.Rmd
-      R/03_make_figure_sampleD.Rmd
-      R/03_make_figure_summary.Rmd
-      R/04_report.Rmd
+      R/04_make_figure_sampleD.Rmd
+      R/05_make_figure_summary.Rmd
+      R/06_report.Rmd
     figs/
+      01_make_figure_sampleA
+      02_make_figure_sampleB
+      03_make_figure_sampleC
+      04_make_figure_sampleD
+      05_make_figure_summary
     report.html/
     Makefile
     README.md
