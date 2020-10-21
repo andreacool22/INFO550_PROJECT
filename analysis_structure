@@ -13,6 +13,6 @@ analysis/
       03_make_figure_sampleC
       04_make_figure_sampleD
       05_make_figure_summary
-    report.html/
+    Report.html/
     Makefile
     README.md
