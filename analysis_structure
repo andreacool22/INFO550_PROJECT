@@ -1,14 +1,18 @@
 analysis/
     data/
     R/
-      R/00_read_data.R
-      R/01_make_figure_sampleA.R
-      R/02_make_figure_sampleB.R
-      R/03_make_figure_sampleC.R
-      R/03_make_figure_sampleD.R
-      R/03_make_figure_summary.R
-      R/04_report.Rmd
+      R/01_make_figure_sampleA.Rmd
+      R/02_make_figure_sampleB.Rmd
+      R/03_make_figure_sampleC.Rmd
+      R/04_make_figure_sampleD.Rmd
+      R/05_make_figure_summary.Rmd
+      R/06_report.Rmd
     figs/
-    report.html/
+      01_make_figure_sampleA
+      02_make_figure_sampleB
+      03_make_figure_sampleC
+      04_make_figure_sampleD
+      05_make_figure_summary
+    Report.html/
     Makefile
     README.md
