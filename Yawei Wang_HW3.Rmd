@@ -23,10 +23,10 @@ library(tidyr)
 
 ```{r}
 
-sampleA<-read.csv("./sampleA.csv")
-sampleB<-read.csv("./sampleB.csv")
-sampleC<-read.csv("./sampleC.csv")
-sampleD<-read.csv("./sampleD.csv")
+sampleA<-read.csv("./data/sampleA.csv")
+sampleB<-read.csv("./data/sampleB.csv")
+sampleC<-read.csv("./data/sampleC.csv")
+sampleD<-read.csv("./data/sampleD.csv")
 ```
 
 
