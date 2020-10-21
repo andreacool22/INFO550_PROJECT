@@ -1,7 +1,7 @@
 analysis/
     data/
     R/
-      R/00_read_data.R
+      
       R/01_make_figure_sampleA.R
       R/02_make_figure_sampleB.R
       R/03_make_figure_sampleC.R
