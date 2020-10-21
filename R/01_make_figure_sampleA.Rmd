@@ -1,0 +1,36 @@
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Select one sample A, one sample B, one sample C and one sample D.Then simulate their read counts by Binom(n,0.5), Binom(n,0.25),Binom(n,0.125),Binom(n,0.05),Binom(n,0.01) and get a new dataset. Use upper quantile, median, quantile, TMM, Deseq and new method to do normalization.  Then calculate the spearman correlation with TaqMan qRT-PCR data and get results. At last, make barplots to compare the performance of different normalization methods. 
+
+
+
+
+
+```{r, load-package}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+```
+
+```{r}
+sampleA<-read.csv("../data/sampleA.csv")
+sampleB<-read.csv("../data/sampleB.csv")
+sampleC<-read.csv("../data/sampleC.csv")
+sampleD<-read.csv("../data/sampleD.csv")
+```
+
+
+```{r 01_make_figure_sampleA}
+knitr::opts_chunk$set(echo = TRUE)
+png("../figs/01_make_figure_sampleA.png")
+gathercol<-names(sampleA)[-1]
+a<-sampleA %>% gather(pa,measurment,gathercol)
+a$measurment<-as.numeric(a$measurment)
+pa<-ggplot(data = a,aes(pa,measurment,fill=method)) 
+paa<-pa+geom_bar(stat="identity", position=position_dodge()) + 
+  scale_y_continuous(limits=c(0,0.88),breaks=seq(0.80,0.88,0.02))+labs(title = "sampleA")+coord_cartesian(ylim=c(0.7369766,0.88))
+paa
+dev.off()
+```
