@@ -1,6 +1,7 @@
 analysis/
     data/
     R/
+      R/00_install_packages.R
       R/01_make_figure_sampleA.Rmd
       R/02_make_figure_sampleB.Rmd
       R/03_make_figure_sampleC.Rmd
